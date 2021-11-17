@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+// when I create different componets import here
+import Header from './components/Header';
+import Navigation from './components/Navigation';
+import Project from './components/Project';
+import Footer from './components/Footer';
+// when I get CSS done import that here
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="placeholder">
+      <Header />
+      <Navigation />
+      <Project fileName= 'placeholder' altText= 'Test' imageName= 'Test Name' deploymentLink= 'www.google.com' githubRepoLink= 'www.google.com' />
+      <Footer />
     </div>
   );
 }
 
 export default App;
+
+
