@@ -4,7 +4,8 @@ let Header = (props) => {
 
   return (
     <>
-      <h1>Header</h1>
+      <h1>Tanner Oliver
+      </h1>
     </>
   )
 };

@@ -5,7 +5,12 @@ let Footer = (props) => {
 
   return(
     <>
-      <h2>Footer</h2>
+      <h2>
+        <a href='https://github.com/TannerOliver' target= '_blank'>GitHub</a>
+      </h2>
+      <h2>
+        <a href='https://www.linkedin.com/in/tanner-oliver-5368b5172/' target= '_blank'>Linked In</a>
+      </h2>
     </>
   )
 };

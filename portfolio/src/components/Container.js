@@ -28,8 +28,10 @@ let Container = (props) => {
 
   return (
     <>
-      <Header/>
-      <Navigation currentPage= {currentPage} handlePageChange={handlePageChange} />
+      <div className= 'Header'>
+        <Header/>
+        <Navigation currentPage= {currentPage} handlePageChange={handlePageChange} />
+      </div>
       {renderPage()}
       <Footer />
     </>
