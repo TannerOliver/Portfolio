@@ -1,5 +1,5 @@
 let AboutMe = (props) => {
-
+//  Add photo of me
   return (
     <>
       <p>
