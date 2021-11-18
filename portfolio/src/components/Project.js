@@ -9,8 +9,8 @@ let Project = (props) => {
     <>
       <img src={props.fileName} alt={props.altText}></img>
       <p>{props.imageName}</p>
-      <a href={props.deploymentLink} >Check out my deployed app!</a>
-      <a href={props.githubRepoLink} >Check out my Github Repo</a>
+      <a href={props.deploymentLink} >Check out my deployed app!</a><br/>
+      <a href={props.githubRepoLink} >Check out my Github Repo</a><br/>
     </>
   )
 };
