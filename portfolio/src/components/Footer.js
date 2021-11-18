@@ -1,4 +1,6 @@
 //  Some links like to github, linked in
+//  Wishlist: add icons and when hovered over make them apear brighter 
+
 let Footer = (props) => {
 
   return(
