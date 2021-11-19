@@ -1,5 +1,3 @@
-//Name for portfolio possibly my own name
-
 let Header = (props) => {
 
   return (

@@ -1,8 +1,3 @@
-//image
-//title
-//link to deployment
-//link to GitHub Repo
-
 let Project = (props) => {
 
   return (
