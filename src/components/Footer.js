@@ -4,14 +4,17 @@
 let Footer = (props) => {
 
   return(
-    <>
-      <h2>
-        <a href='https://github.com/TannerOliver' target= '_blank'>GitHub</a>
-      </h2>
-      <h2>
-        <a href='https://www.linkedin.com/in/tanner-oliver-5368b5172/' target= '_blank'>Linked In</a>
-      </h2>
-    </>
+    <div id='footer'>
+      <h3>
+        <a href='https://github.com/TannerOliver' target= '_blank' id='footerText'>GitHub</a>
+      </h3>
+      <h3>
+        <a href='https://www.linkedin.com/in/tanner-oliver-5368b5172/' target= '_blank' id='footerText'>Linked In</a>
+      </h3>
+      <h3>
+        <a href='https://www.twitch.tv/pastel_raver' target= '_blank' id='footerText'>Twitch</a>
+      </h3>
+    </div>
   )
 };
 

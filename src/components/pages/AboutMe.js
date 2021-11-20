@@ -1,7 +1,10 @@
+import img7 from '../../images/tanner.jpg';
+
 let AboutMe = (props) => {
 //  Add photo of me
   return (
     <>
+      <img src={img7} alt='Tanner' id='aboutImg'></img>
       <p>
         I am a student attending the Uniersity of Minnesota's full-stack flex bootcamp. So far I have learned some HTML, 
         CSS, JS, Jquery and Bootstrap. We recently started learning how to use API's. I just got done creating my first project.

@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Portfolio from './pages/Portfolio';
 import Navigation from './Navigation';
+import './App.css';
 
 let Container = (props) => {
 
@@ -28,11 +29,11 @@ let Container = (props) => {
 
   return (
     <>
-      <div className= 'Header'>
+      <div className= 'Header' id='mainContentContainer'>
         <Header/>
         <Navigation currentPage= {currentPage} handlePageChange={handlePageChange} />
+        {renderPage()}
       </div>
-      {renderPage()}
       <Footer />
     </>
   )

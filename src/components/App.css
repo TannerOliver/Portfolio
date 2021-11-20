@@ -1,0 +1,128 @@
+* {
+  background-color: #13366eff;
+  color: #889fd3ff;
+}
+
+Header {
+  display: flex;
+}
+#mainContentContainer {
+  margin-bottom: 35px;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+  text-align: center;
+  margin: 7px;
+}
+a {
+  text-decoration: none;
+}
+p {
+  text-align: center;
+}
+#aboutImg {
+  max-height: 50vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#projectCard {
+  max-width: 80vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#projectImage {
+  max-width: 80vw;
+}
+#projectLink {
+  text-align: center;
+}
+#form {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+#frontEnd {
+  text-align: center;
+  line-height: 5px;
+}
+#backEnd {
+  text-align: center;
+  line-height: 5px;
+}
+#footer {
+  position: fixed;
+  padding: 10px 10px 2px 10px;
+  bottom: 0;
+  width: 100%;
+}
+h3 {
+  display: inline;
+  margin: 17px;
+}
+@media (min-width: 700px) {
+  * {
+    font-size: 25px;
+  }
+  #navigationContainer {
+    text-align: center;
+    min-width: 100%;
+  }
+  #mainContentContainer {
+    margin-bottom: 45px;
+  }
+  #footer {
+    position: fixed;
+    padding: 10px 10px 2px 10px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (min-width: 1000px) {
+  #portfolioContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+  }
+  #projectCard {
+    max-width: 45vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #projectImage {
+    max-width: 45vw;
+  }
+  #form {
+    border: 1px solid #f5f4f9ff;
+    border-radius: 5px;
+    background-color: #405ca5ff;
+  }
+  input {
+    width: 65%;
+    margin-bottom: 50px;
+    background-color: #889fd3ff;
+    border: 1px solid #f5f4f9ff;
+    border-radius: 5px;
+    box-shadow: 5px 10px #13366eff;
+  }
+  #message {
+    height: 100px;
+  }
+  label {
+    background-color: #405ca5ff;
+    color: black;
+  }
+}

@@ -16,15 +16,15 @@ let Contact = (props) => {
   }
 
   return (
-    <>
-      <label for='name'>Name:</label>
-      <input type='text' id='name' name= 'name' value={input.name} onChange={handleInput}></input>
-      <label for='email'>E-mail:</label> 
-      <input type='email' id='email' name='email' value={input.email} pattern=".+@globex\.com" onChange={handleInput}></input>
-      <label for='message'>Message:</label>
-      <input type='text' id='message' name='message' value={input.message} onChange={handleInput}></input>
-      <button onClick={handleSubmit}>submit</button>
-    </>
+    <div id='form'>
+      <label for='name'>Name:</label> <br/>
+      <input type='text' id='name' name= 'name' value={input.name} onChange={handleInput}></input><br/>
+      <label for='email'>E-mail:</label> <br/>
+      <input type='email' id='email' name='email' value={input.email} pattern=".+@globex\.com" onChange={handleInput}></input><br/>
+      <label for='message'>Message:</label> <br/>
+      <input type='text' id='message' name='message' value={input.message} onChange={handleInput}></input><br/>
+      <button onClick={handleSubmit}>submit</button><br/>
+    </div>
   )
 };
 
